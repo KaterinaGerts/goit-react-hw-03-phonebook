@@ -17,16 +17,15 @@ class App extends Component {
   };
 
   componentDidMount() {  
-    const contact = localStorage.getItem('contacts');
-    const parcedContacts = JSON.parse(contact);
+    const savedContacts = localStorage.getItem('contacts');
+    const parcedContacts = JSON.parse(savedContacts);
     if(parcedContacts) {
-      this.setState({contact: parcedContacts});
+      this.setState({contacts: parcedContacts});
     }
   }
 
   componentDidUpdate(prevProps, prevState) {   
-    if(this.state.contacts !== prevState.contacts) {
-      console.log('Обновились контакты');
+    if(this.state.contacts !== prevState.contacts) {     
       localStorage.setItem('contacts', JSON.stringify(this.state.contacts));
     }
   }
