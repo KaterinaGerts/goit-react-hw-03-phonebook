@@ -1,0 +1,7 @@
+.container {
+  max-width: 1240px;  
+  padding: 20px;  
+  background-color: rgb(63, 197, 152);
+  text-align: center;
+  outline: 1px solid teal;
+}

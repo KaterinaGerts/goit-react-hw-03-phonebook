@@ -1,0 +1,13 @@
+.label {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 4px;    
+    width: 300px;
+}
+
+.input {
+    margin-bottom: 10px;
+}

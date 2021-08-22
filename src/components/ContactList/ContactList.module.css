@@ -1,0 +1,28 @@
+.contactList {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    width: 300px;
+    padding: 0;
+}
+
+.name {
+    margin-bottom: 4px;
+    font-size: 18px;
+    font-weight: 500;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.number {
+    font-style: italic;
+}
+
+.button {
+    position: absolute;
+    right: 0;
+    margin-left: 10px;
+}
